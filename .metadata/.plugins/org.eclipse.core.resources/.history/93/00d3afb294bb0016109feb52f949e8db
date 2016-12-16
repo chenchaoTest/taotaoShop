@@ -1,0 +1,16 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ItemParamItemController {
+	@Autowired
+	private ItemParamItemService itemParamItemService;
+	
+	@RequestMapping("/item/{itemId}")
+	public String showItemParam(@PathVariable Long itemId, Model model) {
+		String string = itemParamItemService.getItemParamByItemId(itemId);
+		model.addAttribute("itemParam", string);
+		return "item";
+	}
+}

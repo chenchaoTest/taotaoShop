@@ -1,0 +1,9 @@
+1477555393676	Move 'applicationContext-dao.xml' to 'spring'
+1477555395825	Move 'applicationContext-service.xml' to 'spring'
+1477555397705	Move 'applicationContext-trans.xml' to 'spring'
+1477555448236	Move 'db.properties' to 'resoource'
+1477643507476	Copy compilation unit
+1477643511278	Delete element
+1477645599867	Copy file
+1477645605354	Delete element
+1477646735479	Delete element

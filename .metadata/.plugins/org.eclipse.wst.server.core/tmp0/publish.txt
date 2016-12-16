@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Fri Oct 28 16:23:30 CST 2016
+org.eclipse.jst.j2ee.server\:taotao-manager-service=WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:taotao-common=WEB-INF/lib/taotao-common-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:taotao-manager-pojo=WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:taotao-manager-mapper=WEB-INF/lib/taotao-manager-mapper-0.0.1-SNAPSHOT.jar
