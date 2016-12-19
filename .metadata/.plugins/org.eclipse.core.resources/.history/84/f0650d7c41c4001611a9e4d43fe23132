@@ -1,0 +1,15 @@
+package com.taotao.rest.service.impl;
+
+import com.taotao.rest.pojo.CatResult;
+import com.taotao.rest.service.ItemCatService;
+
+public class ItemCatServiceImpl implements ItemCatService {
+
+	
+	
+	@Override
+	public CatResult getItemCatList() {
+		return null;
+	}
+
+}

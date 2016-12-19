@@ -1,0 +1,12 @@
+127.0.0.1 - - [17/Dec/2016:18:55:05 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 949 http-bio-8081-exec-1 56
+0:0:0:0:0:0:0:1 - - [17/Dec/2016:18:55:27 +0800] "GET /itemcat/list HTTP/1.1" 404 975 http-bio-8081-exec-3 3
+0:0:0:0:0:0:0:1 - - [17/Dec/2016:18:55:27 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8081-exec-4 3
+0:0:0:0:0:0:0:1 - - [17/Dec/2016:18:55:28 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8081-exec-5 2
+0:0:0:0:0:0:0:1 - - [17/Dec/2016:18:57:18 +0800] "GET /rest/itemcat/list HTTP/1.1" 200 41864 http-bio-8081-exec-7 1250
+0:0:0:0:0:0:0:1 - - [17/Dec/2016:18:58:01 +0800] "GET /rest/itemcat/list?callback=mymain HTTP/1.1" 200 41878 http-bio-8081-exec-8 376
+127.0.0.1 - - [17/Dec/2016:18:58:57 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 949 http-bio-8081-exec-10 2
+127.0.0.1 - - [17/Dec/2016:18:59:01 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 949 http-bio-8081-exec-10 2
+127.0.0.1 - - [17/Dec/2016:18:59:25 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 404 949 http-bio-8081-exec-10 2
+127.0.0.1 - - [17/Dec/2016:19:31:43 +0800] "GET /rest/itemcat/list?callback=category.getDataService HTTP/1.1" 200 41895 http-bio-8081-exec-5 357
+127.0.0.1 - - [17/Dec/2016:19:32:19 +0800] "GET /rest/itemcat/list?callback=category.getDataService HTTP/1.1" 200 41895 http-bio-8081-exec-5 319
+127.0.0.1 - - [17/Dec/2016:19:39:49 +0800] "GET /rest/itemcat/list?callback=category.getDataService HTTP/1.1" 200 30492 http-bio-8081-exec-1 966

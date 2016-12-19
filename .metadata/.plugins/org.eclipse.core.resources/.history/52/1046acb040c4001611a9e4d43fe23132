@@ -1,0 +1,5 @@
+package com.taotao.rest.pojo;
+
+public class CatNode {
+
+}

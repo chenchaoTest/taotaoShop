@@ -64,7 +64,7 @@ function menuHandler(item){
 			if(r){
 				$.post("/content/category/delete/",{parentId:node.parentId,id:node.id},function(){
 					tree.tree("remove",node.target);
-				});	
+				});
 			}
 		});
 	}

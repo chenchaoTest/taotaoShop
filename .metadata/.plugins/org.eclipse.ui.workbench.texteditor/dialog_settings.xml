@@ -13,16 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="getItemById" key="selection"/>
+		<item value="parentId:node" key="selection"/>
 		<list key="findhistory">
+			<item value="parentId:node"/>
+			<item value="selectByExample"/>
 			<item value="getItemById"/>
 			<item value="getItemParamByItemId"/>
 			<item value="geParamItemByItemId"/>
 			<item value="Params"/>
 			<item value="params"/>
 			<item value="addGroupTr"/>
-			<item value="toolbar"/>
-			<item value="tree-title"/>
 		</list>
 		<list key="replacehistory">
 		</list>

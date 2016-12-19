@@ -1,0 +1,9 @@
+package com.taotao.rest.pojo;
+
+public class CatNode {
+	
+	private String name;
+	private String utl;
+	private List<?> item;
+
+}

@@ -96,6 +96,11 @@
     delete from tb_content_category
     where id = #{id,jdbcType=BIGINT}
   </delete>
+  <!-- 删除父节点下的子节点 -->
+  <delete id="deleteByParentId" parameterType="java.lang.Long" >
+    delete from tb_content_category
+    where (parent_id = #{id,jdbcType=BIGINT} OR id = #{id,jdbcType=BIGINT})
+  </delete>
   <delete id="deleteByExample" parameterType="com.taotao.pojo.TbContentCategoryExample" >
     delete from tb_content_category
     <if test="_parameter != null" >
@@ -103,6 +108,9 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.taotao.pojo.TbContentCategory" >
+    <selectKey keyProperty="id" resultType="long" order="AFTER">
+    	SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into tb_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)

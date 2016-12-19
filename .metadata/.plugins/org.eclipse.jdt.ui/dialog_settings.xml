@@ -91,6 +91,8 @@
 		</section>
 	</section>
 	<section name="completion_proposal_size">
+		<item value="674" key="size.x"/>
+		<item value="350" key="size.y"/>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>

@@ -1,0 +1,20 @@
+package com.taotao.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.service.ContentCategoryService;
+import com.taotao.utils.EUTreeNode;
+@Service
+public class ContentCategoryServiceImpl implements ContentCategoryService {
+
+	
+	
+	@Override
+	public List<EUTreeNode> getCategoryList(long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
