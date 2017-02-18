@@ -1,0 +1,7 @@
+package com.taotao.search.dao.impl;
+
+import com.taotao.search.dao.SearchDao;
+
+public class SearchDaoImpl implements SearchDao {
+
+}

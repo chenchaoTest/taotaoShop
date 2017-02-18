@@ -6,6 +6,13 @@
 <typeInfo handle="=taotao-manager/src\/main\/java&lt;com.taotao.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1481015360901"/>
 <typeInfo handle="=taotao-manager/src\/main\/java&lt;com.taotao.service{ItemParamItemService.java[ItemParamItemService" modifiers="513" timestamp="1481015633297"/>
 <typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1481969546687"/>
-<typeInfo handle="=taotao-manager/src\/main\/java&lt;com.taotao.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1482050949566"/>
-<typeInfo handle="=taotao-manager/src\/main\/java&lt;com.taotao.service{ContentService.java[ContentService" modifiers="513" timestamp="1482056730194"/>
+<typeInfo handle="=taotao-manager/src\/main\/java&lt;com.taotao.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1482053048521"/>
+<typeInfo handle="=taotao-manager/src\/main\/java&lt;com.taotao.service{ContentService.java[ContentService" modifiers="513" timestamp="1482057398332"/>
+<typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.service{ContentService.java[ContentService" modifiers="513" timestamp="1482644759110"/>
+<typeInfo handle="=taotao-portal/src\/main\/java&lt;com.taotao.portal.service{ContentService.java[ContentService" modifiers="513" timestamp="1482653689868"/>
+<typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.dao{JedisClient.java[JedisClient" modifiers="513" timestamp="1485152671702"/>
+<typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.service{RedisService.java[RedisService" modifiers="513" timestamp="1485152605516"/>
+<typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.service{ItemService.java[ItemService" modifiers="513" timestamp="1486873650691"/>
+<typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1486878452113"/>
+<typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1486878524591"/>
 </typeInfoHistroy>

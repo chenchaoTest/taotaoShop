@@ -24,6 +24,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\taotaoShop\taotao-search"/>
 			<item value="E:\taotaoShop\taotao-parent\pom.xml"/>
 			<item value="E:\taotaoShop\taotao-manager"/>
 			<item value="E:\taotaoShop\taotao-manage"/>
@@ -88,13 +89,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.taotao"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="taotao-portal"/>
-			<item value="taotao-parent"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,7 +1,0 @@
-package com.taotao.service;
-
-import java.util.List;
-
-public interface ContentCategoryService {
-	List<EUTreeNode> getCategoryList(long parentId);
-}

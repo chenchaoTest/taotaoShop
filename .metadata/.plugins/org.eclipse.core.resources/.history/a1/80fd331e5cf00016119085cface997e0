@@ -1,0 +1,5 @@
+package com.taotao.rest.solrj;
+
+public class SolrJTest {
+
+}

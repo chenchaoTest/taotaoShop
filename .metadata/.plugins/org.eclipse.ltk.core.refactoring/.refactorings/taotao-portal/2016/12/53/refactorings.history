@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;taotao-portal&apos;&#x0D;&#x0A;- Original project: &apos;taotao-portal&apos;&#x0D;&#x0A;- Original element: &apos;taotao-portal/src/main/java/com.taotao.portal.service.impl&apos;" description="Delete element" element1="/src\/main\/java&lt;com.taotao.portal.service.impl" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1482653708908" subPackages="false" version="1.0"/>
+</session>

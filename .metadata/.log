@@ -5511,3 +5511,1163 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-12-20 16:22:58.908 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2016-12-20 16:23:01.905
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-20 16:23:14.246
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-20 16:23:14.246
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-12-25 12:30:15.194 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\taotaoShop -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2016-12-25 12:30:17.981
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-25 12:30:27.756
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-25 12:30:27.756
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-12-25 13:49:28.566
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@317dadcb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a781a6c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@581b7f78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@330ebe3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dd10fe0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ceb6f54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34d9fa6c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52c7e38f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@412cebbe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5992a9e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c29285f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@546e01d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@219ac73,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e5ca0f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6388b318,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f941df6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23a61fb5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2745889,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f6bb65b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b09d632,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8914983,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13205adc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a713bd9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25489774,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2010625c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-25 13:50:42.848
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@777014aa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13a99676,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SESSION 2017-01-02 15:39:24.263 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-02 15:39:31.609
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-02 15:39:55.827
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-02 15:39:55.827
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-01-09 09:50:48.890 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-09 09:50:56.452
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-09 09:51:21.565
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-09 09:51:21.565
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-01-22 10:48:52.850 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\taotaoShop -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-22 10:48:56.024
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-22 10:49:05.229
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-22 10:49:05.229
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-01-22 10:56:17.830
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+!SESSION 2017-01-22 14:21:36.643 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-22 14:21:39.254
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-22 14:21:48.237
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-22 14:21:48.238
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-01-23 10:29:07.008 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-23 10:29:09.682
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-23 10:29:25.911
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-23 10:29:25.911
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e996895,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36fb695e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4636a44e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33c2b685,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bc64140,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@345cf04f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41a4ed64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32dd61e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64469ec7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1921d17e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58624e3f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@208e74da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dff376e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16e1a582,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e902624,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f3a2358,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49b835fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54578b16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ce05933,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7016c606,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d0052e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54c2b5d2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10430403,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4769eb76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fbc694c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-01-23 12:44:07.064
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f6ea3ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@aa50cdb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-01-23 12:44:26.769
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.ui 4 4 2017-01-23 15:01:49.237
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-01-23 15:01:49.238
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-01-23 15:01:49.238
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-01-23 15:01:49.239
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2017-01-23 15:01:49.239
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2017-01-23 15:01:49.239
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+!SESSION 2017-01-24 15:19:34.215 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-24 15:19:36.997
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-24 15:19:53.691
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-24 15:19:53.691
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-02-11 12:23:58.899 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-02-11 12:24:02.112
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-11 12:24:37.615
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-11 12:24:37.615
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-02-11 21:10:22.797 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-02-11 21:10:26.202
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-11 21:10:35.827
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-11 21:10:35.827
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-11 21:12:42.763
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-11 21:34:38.986
+!MESSAGE The POM for com.taotao:taotao-manager-mapper:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-11 21:34:39.317
+!MESSAGE The POM for com.taotao:taotao-manager-mapper:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+!SESSION 2017-02-12 12:06:25.890 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-02-12 12:06:28.704
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-12 12:06:42.532
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-12 12:06:42.532
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-12 12:06:56.502
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+!SESSION 2017-02-16 16:27:25.176 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-02-16 16:27:28.642
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-16 16:27:58.942
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-16 16:27:58.942
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-02-16 16:48:54.871 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\taotaoShop -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-02-16 16:48:57.856
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-16 16:49:07.013
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-16 16:49:07.013
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-02-18 11:18:27.264 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-02-18 11:18:31.978
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jst.j2ee.core 4 0 2017-02-18 11:18:59.952
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:102)
+	at org.eclipse.jst.j2ee.internal.J2EEInit.aquireInitializePackageContentsLock(J2EEInit.java:454)
+	at org.eclipse.jst.j2ee.ejb.internal.impl.EjbPackageImpl.freeze(EjbPackageImpl.java:1757)
+	at org.eclipse.jst.j2ee.ejb.internal.impl.EjbPackageImpl.init(EjbPackageImpl.java:325)
+	at org.eclipse.jst.j2ee.ejb.EjbPackage.<clinit>(EjbPackage.java:1916)
+	at org.eclipse.jst.j2ee.ejb.internal.impl.EjbFactoryImpl.getPackage(EjbFactoryImpl.java:671)
+	at org.eclipse.jst.j2ee.internal.provider.J2EEAdapterFactoryLabelProvider.<clinit>(J2EEAdapterFactoryLabelProvider.java:42)
+	at org.eclipse.jst.j2ee.navigator.internal.J2EELabelProvider.initialize(J2EELabelProvider.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.J2EELabelProvider.init(J2EELabelProvider.java:246)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:176)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:169)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:163)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:151)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:67)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:106)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:843)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(AbstractTreeViewer.java:818)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:791)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:762)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1543)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:790)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$5.run(AbstractTreeViewer.java:1527)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1436)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1397)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1519)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:292)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1675)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:212)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer.createPartControl(ProjectExplorer.java:93)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:141)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:327)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:547)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:531)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1250)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:100)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:100)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:77)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:664)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1078)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-18 11:19:48.511
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-18 11:19:48.511
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\chao'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

@@ -13,8 +13,9 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="parentId:node" key="selection"/>
+		<item value="redisClient" key="selection"/>
 		<list key="findhistory">
+			<item value="redisClient"/>
 			<item value="parentId:node"/>
 			<item value="selectByExample"/>
 			<item value="getItemById"/>
@@ -22,7 +23,6 @@
 			<item value="geParamItemByItemId"/>
 			<item value="Params"/>
 			<item value="params"/>
-			<item value="addGroupTr"/>
 		</list>
 		<list key="replacehistory">
 		</list>

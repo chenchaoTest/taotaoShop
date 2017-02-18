@@ -36,7 +36,7 @@
 		</list>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="2" key="pageIndex"/>
+		<item value="0" key="pageIndex"/>
 	</section>
 	<section name="JavaSearchPage">
 		<item value="false" key="CASE_SENSITIVE"/>

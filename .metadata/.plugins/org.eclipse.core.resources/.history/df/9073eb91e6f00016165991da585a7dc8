@@ -1,0 +1,9 @@
+package com.taotao.search.dao.impl;
+
+import org.springframework.stereotype.Repository;
+
+import com.taotao.search.dao.SearchDao;
+@Repository
+public class SearchDaoImpl implements SearchDao {
+
+}
