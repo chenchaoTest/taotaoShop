@@ -1,0 +1,29 @@
+package com.taotao.sso.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.sso.service.UserService;
+
+/**
+ * 用户管理Controller
+ * @author chao
+ *
+ */
+@Controller
+@RequestMapping("/user")
+public class UserController {
+
+	@Autowired
+	private UserService userService;
+	
+	//http://sso.taotao.com/user/check/{param}/{type}
+	@RequestMapping("check/{param}/{type}")
+	public Object checkData(@PathVariable String param,@PathVariable Integer type){
+		TaotaoResult result = userService.checkData(param, type);
+		return result;
+	}
+}

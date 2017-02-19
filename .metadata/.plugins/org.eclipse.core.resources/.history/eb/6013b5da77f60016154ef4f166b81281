@@ -1,0 +1,20 @@
+package com.taotao.sso.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.sso.mapper.TbUserMapper;
+import com.taotao.sso.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private TbUserMapper userMapper;
+	
+	@Override
+	public TaotaoResult checkData(String content, Integer type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

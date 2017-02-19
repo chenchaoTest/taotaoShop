@@ -1,0 +1,8 @@
+package com.taotao.sso.service;
+
+public class Snippet {
+	public static void main(String[] args) {
+		UserService
+	}
+}
+

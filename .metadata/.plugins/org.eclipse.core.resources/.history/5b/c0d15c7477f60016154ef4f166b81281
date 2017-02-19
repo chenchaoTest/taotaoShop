@@ -1,0 +1,14 @@
+package com.taotao.sso.service.impl;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.sso.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public TaotaoResult checkData(String content, Integer type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
