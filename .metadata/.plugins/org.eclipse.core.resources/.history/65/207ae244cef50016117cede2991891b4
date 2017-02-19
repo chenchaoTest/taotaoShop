@@ -1,0 +1,32 @@
+package com.taotao.rest.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.rest.dao.JedisClient;
+import com.taotao.rest.mapper.TbItemMapper;
+import com.taotao.rest.pojo.TbItem;
+import com.taotao.rest.service.ItemService;
+/**
+ * 商品信息管理service
+ * @author chao
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Autowired
+	private TbItemMapper itemMapper;
+	@Autowired
+	private JedisClient jedisClinet;
+	
+	@Override
+	public TaotaoResult getItemBaseInfo(long itemId) {
+		//根据商品id查询商品信息
+		TbItem tbItem = itemMapper.selectByPrimaryKey(itemId);
+		//使用TaoTaoResult包装一下
+		return TaotaoResult.ok(tbItem);
+	}
+
+}

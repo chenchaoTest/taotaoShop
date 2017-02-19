@@ -1,0 +1,12 @@
+package com.taotao.portal.controller;
+
+import org.springframework.stereotype.Controller;
+/**
+ * 商品详情页展示
+ * @author chao
+ *
+ */
+@Controller
+public class ItemController {
+
+}

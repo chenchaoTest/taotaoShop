@@ -15,4 +15,6 @@
 <typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.service{ItemService.java[ItemService" modifiers="513" timestamp="1486873650691"/>
 <typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1486878452113"/>
 <typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1486878524591"/>
+<typeInfo handle="=taotao-portal/src\/main\/java&lt;com.taotao.portal.service{SearchService.java[SearchService" modifiers="513" timestamp="1487404236012"/>
+<typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1487416744027"/>
 </typeInfoHistroy>

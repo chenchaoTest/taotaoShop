@@ -1,0 +1,16 @@
+package com.taotao.portal.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.portal.pojo.SearchResult;
+import com.taotao.portal.service.SearchService;
+@Service
+public class SearchServiceImpl implements SearchService {
+
+	@Override
+	public SearchResult search(String queryString, int page) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
