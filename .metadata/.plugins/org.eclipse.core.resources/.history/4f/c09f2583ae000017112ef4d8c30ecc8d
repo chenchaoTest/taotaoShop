@@ -1,0 +1,76 @@
+package com.taotao.portal.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Value;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.common.utils.CookieUtils;
+import com.taotao.common.utils.HttpClientUtil;
+import com.taotao.common.utils.JsonUtils;
+import com.taotao.portal.pojo.CartItem;
+import com.taotao.portal.pojo.TbItem;
+import com.taotao.portal.service.CartService;
+/**
+ * 添加购物车商品
+ * @author chao
+ *
+ */
+public class CartServiceImpl implements CartService {
+
+	@Value("${REST_BASE_URL}")
+	private String REST_BASE_URL;
+	
+	@Value("${ITEM_INFO_URL}")
+	private String ITEM_INFO_URL;
+	
+	@Override
+	public TaotaoResult addCarItem(long itemId, int num,HttpServletRequest request,HttpServletResponse response) {
+		CartItem ct = null;
+		//取购物车商品列表
+		List<CartItem> cartList = getCartItemList(request);
+		//判断购物车商品是否存在该商品
+		for (CartItem cItem : cartList) {
+			//如果存在该商品
+			if(cItem.getId()==itemId){
+				//增加商品数量、
+				cItem.setNum(cItem.getNum() + num);
+				ct = cItem;
+				break;
+			}
+		}
+		//根据商品id查询商品信息
+		String json = HttpClientUtil.doGet(REST_BASE_URL + ITEM_INFO_URL + itemId);
+		//把json转换成java对象
+		TaotaoResult result = TaotaoResult.formatToList(json, TbItem.class);
+		if(result.getStatus()==200){
+			TbItem tb = (TbItem)result.getData();
+			ct.setId(tb.getId());
+			ct.setTitle(tb.getTitle());
+			ct.setImage(tb.getImages() == null ? "":tb.getImage().split(",")[0]);
+			ct.setNum(num);
+			ct.setPrice(tb.getPrice());
+		}
+		return null;
+	}
+	public List<CartItem> getCartItemList(HttpServletRequest request){
+		//从cookie去商品列表
+		String cartJson = CookieUtils.getCookieValue(request, "TT_CART");
+		if(cartJson == null){
+			return new ArrayList<>();
+		}
+		//把json转换成商品列表
+		try {
+			List<CartItem> cartList = JsonUtils.jsonToList(cartJson, CartItem.class);
+			return cartList;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return new ArrayList<>();
+	}
+}

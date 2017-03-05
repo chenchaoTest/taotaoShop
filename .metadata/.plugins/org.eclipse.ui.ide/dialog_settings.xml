@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
-		<item value="true" key="ShowStatusLine"/>
 		<item value="false" key="ShowDerived"/>
+		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/generatorSqlmapCustom/src/com/taotao/pojo/TbContentCategory.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/mapper/TbItemMapper.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/controller/ItemParamItemController.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/controller/ItemController.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/category.html&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/mapper/TbContentCategoryMapper.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/generatorSqlmapCustom/src/com/taotao/pojo/TbContentCategory.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/mapper/TbItemMapper.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/controller/ItemParamItemController.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/controller/ItemController.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/webapp/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/category.html&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-manager/src/main/java/com/taotao/mapper/TbContentCategoryMapper.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/taotao-portal/src/main/webapp/js/cart.js&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="195" key="DIALOG_Y_ORIGIN"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
 			<item value="668" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
 			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -25,17 +25,17 @@
 			<item value=""/>
 		</list>
 	</section>
-	<section name="CleanDialogSettings">
-		<item value="500" key="DIALOG_WIDTH"/>
-		<item value="260" key="DIALOG_Y_ORIGIN"/>
-		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="710" key="DIALOG_X_ORIGIN"/>
-		<item value="true" key="TOGGLE_SELECTED"/>
-	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.m2e"/>
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="260" key="DIALOG_Y_ORIGIN"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
 	</section>
 </section>

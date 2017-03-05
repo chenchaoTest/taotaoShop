@@ -13,16 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="redisClient" key="selection"/>
+		<item value="loginbar" key="selection"/>
 		<list key="findhistory">
+			<item value="loginbar"/>
+			<item value="formlogin"/>
+			<item value="doSubmit:function"/>
+			<item value="haveParam"/>
+			<item value="item-desc"/>
 			<item value="redisClient"/>
 			<item value="parentId:node"/>
 			<item value="selectByExample"/>
-			<item value="getItemById"/>
-			<item value="getItemParamByItemId"/>
-			<item value="geParamItemByItemId"/>
-			<item value="Params"/>
-			<item value="params"/>
 		</list>
 		<list key="replacehistory">
 		</list>

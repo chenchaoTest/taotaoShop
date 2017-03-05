@@ -1,0 +1,17 @@
+package com.taotao.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.taotao.portal.service.CartService;
+
+/**
+ * 添加购物车到cookie
+ * @author chao
+ *
+ */
+@Controller
+public class CartController {
+	@Autowired
+	private CartService cartService;
+}

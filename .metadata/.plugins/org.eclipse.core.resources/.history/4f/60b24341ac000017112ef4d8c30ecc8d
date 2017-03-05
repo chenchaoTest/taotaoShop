@@ -1,0 +1,7 @@
+package com.taotao.portal.service;
+
+import com.taotao.common.pojo.TaotaoResult;
+
+public interface CartService {
+	TaotaoResult addCarItem(long itemId,long id);
+}

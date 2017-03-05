@@ -1,0 +1,13 @@
+package com.taotao.portal.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 添加购物车到cookie
+ * @author chao
+ *
+ */
+@Controller
+public class CartController {
+
+}

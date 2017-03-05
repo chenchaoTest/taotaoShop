@@ -89,10 +89,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.taotao"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="taotao-sso"/>
+			<item value="taotao-parent"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -16,5 +16,10 @@
 <typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1486878452113"/>
 <typeInfo handle="=taotao-search/src\/main\/java&lt;com.taotao.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1486878524591"/>
 <typeInfo handle="=taotao-portal/src\/main\/java&lt;com.taotao.portal.service{SearchService.java[SearchService" modifiers="513" timestamp="1487404236012"/>
-<typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1487416744027"/>
+<typeInfo handle="=taotao-rest/src\/main\/java&lt;com.taotao.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1487420870749"/>
+<typeInfo handle="=taotao-portal/src\/main\/java&lt;com.taotao.portal.service{ItemService.java[ItemService" modifiers="513" timestamp="1487480294361"/>
+<typeInfo handle="=taotao-sso/src\/main\/java&lt;com.taotao.sso.service{UserService.java[UserService" modifiers="513" timestamp="1488016416288"/>
+<typeInfo handle="=taotao-portal/D:\/Program Files\/Java\/jdk1.7.0_76\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.bind.v2.runtime.unmarshaller(Intercepter.class[Intercepter" modifiers="1537" timestamp="1423307918542"/>
+<typeInfo handle="=taotao-portal/src\/main\/java&lt;com.taotao.portal.service{UserService.java[UserService" modifiers="513" timestamp="1488018903443"/>
+<typeInfo handle="=taotao-portal/src\/main\/java&lt;com.taotao.portal.service{CartService.java[CartService" modifiers="513" timestamp="1488611642244"/>
 </typeInfoHistroy>

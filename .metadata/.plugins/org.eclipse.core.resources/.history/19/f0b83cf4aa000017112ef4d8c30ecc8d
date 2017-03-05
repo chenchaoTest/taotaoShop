@@ -1,0 +1,9 @@
+package com.taotao.portal.pojo;
+/**
+ * 购物车视图
+ * @author chao
+ *
+ */
+public class CartItem {
+
+}

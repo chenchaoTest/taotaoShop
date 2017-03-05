@@ -1,0 +1,34 @@
+package com.taotao.portal.service.impl;
+
+import org.springframework.beans.factory.annotation.Value;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.common.utils.HttpClientUtil;
+import com.taotao.portal.pojo.TbItem;
+import com.taotao.portal.service.CartService;
+/**
+ * 添加购物车商品
+ * @author chao
+ *
+ */
+public class CartServiceImpl implements CartService {
+
+	@Value("${REST_BASE_URL}")
+	private String REST_BASE_URL;
+	
+	@Value("${ITEM_INFO_URL}")
+	private String ITEM_INFO_URL;
+	
+	@Override
+	public TaotaoResult addCarItem(long itemId, long id) {
+		//根据商品id查询商品信息
+		String json = HttpClientUtil.doGet(REST_BASE_URL + ITEM_INFO_URL + itemId);
+		//把json转换成java对象
+		TaotaoResult result = TaotaoResult.formatToList(json, TbItem.class);
+		if(result.getStatus()==200){
+			
+		}
+		return null;
+	}
+
+}
