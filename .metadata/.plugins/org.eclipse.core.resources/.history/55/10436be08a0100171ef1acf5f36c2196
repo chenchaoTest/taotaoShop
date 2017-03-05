@@ -1,0 +1,12 @@
+package com.taotao.order.controller;
+
+import org.springframework.stereotype.Controller;
+/**
+ * 订单
+ * @author chao
+ *
+ */
+@Controller
+public class OrderController {
+
+}

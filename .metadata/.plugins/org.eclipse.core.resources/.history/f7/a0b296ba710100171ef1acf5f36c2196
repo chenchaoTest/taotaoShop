@@ -1,0 +1,27 @@
+package com.taotao.order.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.order.pojo.TbOrder;
+import com.taotao.order.pojo.TbOrderItem;
+import com.taotao.order.pojo.TbOrderShipping;
+import com.taotao.order.service.OrderService;
+/**
+ * 订单管理Service
+ * @author chao
+ *
+ */
+@Service
+public class OrderServiceImpl implements OrderService {
+
+	@Override
+	public TaotaoResult createOrder(TbOrder order, List<TbOrderItem> itemList,
+			TbOrderShipping orderShipping) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.taotao.order.pojo;
+
+public class Order extends TbOrder {
+	private List<TbOrderItem> orderItems;
+	private TbOrderShipping orderShipping;
+}

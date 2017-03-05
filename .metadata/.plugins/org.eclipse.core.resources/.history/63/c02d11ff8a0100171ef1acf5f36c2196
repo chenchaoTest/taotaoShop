@@ -1,0 +1,23 @@
+package com.taotao.order.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.order.service.OrderService;
+/**
+ * 订单
+ * @author chao
+ *
+ */
+@Controller
+public class OrderController {
+
+	@Autowired
+	private OrderService orderService;
+	
+	public TaotaoResult createOrder(@ResponseBody Order order){
+		
+	}
+}
